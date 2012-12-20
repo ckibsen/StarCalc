@@ -1,0 +1,18 @@
+
+PODS:
+- CalcFrame (0.0.1)
+- CalcFrameExtension (0.0.1):
+  - CalcFrame (from `https://raw.github.com/ckibsen/CalcFrame/0.0.1/CalcFrame.podspec')
+
+DEPENDENCIES:
+- CalcFrameExtension (from `https://raw.github.com/ckibsen/CalcFrameExtension/0.0.1/CalcFrameExtension.podspec')
+
+EXTERNAL SOURCES:
+  CalcFrameExtension:
+    :podspec: https://raw.github.com/ckibsen/CalcFrameExtension/0.0.1/CalcFrameExtension.podspec
+
+SPEC CHECKSUMS:
+  CalcFrame: e8c7c6ec94a4fbc0d7ef536d87e9616fa4c4b8af
+  CalcFrameExtension: a0e32a78dd6d31e781fe6542565ee73d39c475a9
+
+COCOAPODS: 0.16.0

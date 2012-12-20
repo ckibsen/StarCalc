@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		896CE036168203FF00E78EFD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 896CE035168203FF00E78EFD /* UIKit.framework */; };
+		896CE038168203FF00E78EFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 896CE037168203FF00E78EFD /* Foundation.framework */; };
+		896CE03A168203FF00E78EFD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 896CE039168203FF00E78EFD /* CoreGraphics.framework */; };
+		896CE040168203FF00E78EFD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 896CE03E168203FF00E78EFD /* InfoPlist.strings */; };
+		896CE042168203FF00E78EFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 896CE041168203FF00E78EFD /* main.m */; };
+		896CE046168203FF00E78EFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 896CE045168203FF00E78EFD /* AppDelegate.m */; };
+		896CE048168203FF00E78EFD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 896CE047168203FF00E78EFD /* Default.png */; };
+		896CE04A168203FF00E78EFD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 896CE049168203FF00E78EFD /* Default@2x.png */; };
+		896CE04C168203FF00E78EFD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 896CE04B168203FF00E78EFD /* Default-568h@2x.png */; };
+		896CE05B1682051200E78EFD /* CalcIt.m in Sources */ = {isa = PBXBuildFile; fileRef = 896CE05A1682051200E78EFD /* CalcIt.m */; };
+		9C19C82C654B4C99AC381748 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6947FBD56CC643B2A8EF3A17 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0404FC4F2D38414D85C88121 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		6947FBD56CC643B2A8EF3A17 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		896CE031168203FF00E78EFD /* StarCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		896CE035168203FF00E78EFD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		896CE037168203FF00E78EFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		896CE039168203FF00E78EFD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		896CE03D168203FF00E78EFD /* StarCalc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StarCalc-Info.plist"; sourceTree = "<group>"; };
+		896CE03F168203FF00E78EFD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		896CE041168203FF00E78EFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		896CE043168203FF00E78EFD /* StarCalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StarCalc-Prefix.pch"; sourceTree = "<group>"; };
+		896CE044168203FF00E78EFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		896CE045168203FF00E78EFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		896CE047168203FF00E78EFD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		896CE049168203FF00E78EFD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		896CE04B168203FF00E78EFD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		896CE0591682051200E78EFD /* CalcIt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalcIt.h; sourceTree = "<group>"; };
+		896CE05A1682051200E78EFD /* CalcIt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalcIt.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		896CE02E168203FF00E78EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				896CE036168203FF00E78EFD /* UIKit.framework in Frameworks */,
+				896CE038168203FF00E78EFD /* Foundation.framework in Frameworks */,
+				896CE03A168203FF00E78EFD /* CoreGraphics.framework in Frameworks */,
+				9C19C82C654B4C99AC381748 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		896CE026168203FF00E78EFD = {
+			isa = PBXGroup;
+			children = (
+				896CE03B168203FF00E78EFD /* StarCalc */,
+				896CE034168203FF00E78EFD /* Frameworks */,
+				896CE032168203FF00E78EFD /* Products */,
+				0404FC4F2D38414D85C88121 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		896CE032168203FF00E78EFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				896CE031168203FF00E78EFD /* StarCalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		896CE034168203FF00E78EFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				896CE035168203FF00E78EFD /* UIKit.framework */,
+				896CE037168203FF00E78EFD /* Foundation.framework */,
+				896CE039168203FF00E78EFD /* CoreGraphics.framework */,
+				6947FBD56CC643B2A8EF3A17 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		896CE03B168203FF00E78EFD /* StarCalc */ = {
+			isa = PBXGroup;
+			children = (
+				896CE044168203FF00E78EFD /* AppDelegate.h */,
+				896CE045168203FF00E78EFD /* AppDelegate.m */,
+				896CE03C168203FF00E78EFD /* Supporting Files */,
+				896CE0591682051200E78EFD /* CalcIt.h */,
+				896CE05A1682051200E78EFD /* CalcIt.m */,
+			);
+			path = StarCalc;
+			sourceTree = "<group>";
+		};
+		896CE03C168203FF00E78EFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				896CE03D168203FF00E78EFD /* StarCalc-Info.plist */,
+				896CE03E168203FF00E78EFD /* InfoPlist.strings */,
+				896CE041168203FF00E78EFD /* main.m */,
+				896CE043168203FF00E78EFD /* StarCalc-Prefix.pch */,
+				896CE047168203FF00E78EFD /* Default.png */,
+				896CE049168203FF00E78EFD /* Default@2x.png */,
+				896CE04B168203FF00E78EFD /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		896CE030168203FF00E78EFD /* StarCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 896CE04F168203FF00E78EFD /* Build configuration list for PBXNativeTarget "StarCalc" */;
+			buildPhases = (
+				896CE02D168203FF00E78EFD /* Sources */,
+				896CE02E168203FF00E78EFD /* Frameworks */,
+				896CE02F168203FF00E78EFD /* Resources */,
+				2596F573709E46819F1801C3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarCalc;
+			productName = StarCalc;
+			productReference = 896CE031168203FF00E78EFD /* StarCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		896CE028168203FF00E78EFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Christian K Ibsen";
+			};
+			buildConfigurationList = 896CE02B168203FF00E78EFD /* Build configuration list for PBXProject "StarCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 896CE026168203FF00E78EFD;
+			productRefGroup = 896CE032168203FF00E78EFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				896CE030168203FF00E78EFD /* StarCalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		896CE02F168203FF00E78EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				896CE040168203FF00E78EFD /* InfoPlist.strings in Resources */,
+				896CE048168203FF00E78EFD /* Default.png in Resources */,
+				896CE04A168203FF00E78EFD /* Default@2x.png in Resources */,
+				896CE04C168203FF00E78EFD /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2596F573709E46819F1801C3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		896CE02D168203FF00E78EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				896CE042168203FF00E78EFD /* main.m in Sources */,
+				896CE046168203FF00E78EFD /* AppDelegate.m in Sources */,
+				896CE05B1682051200E78EFD /* CalcIt.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		896CE03E168203FF00E78EFD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				896CE03F168203FF00E78EFD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		896CE04D168203FF00E78EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		896CE04E168203FF00E78EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		896CE050168203FF00E78EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0404FC4F2D38414D85C88121 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StarCalc/StarCalc-Prefix.pch";
+				INFOPLIST_FILE = "StarCalc/StarCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		896CE051168203FF00E78EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0404FC4F2D38414D85C88121 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StarCalc/StarCalc-Prefix.pch";
+				INFOPLIST_FILE = "StarCalc/StarCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		896CE02B168203FF00E78EFD /* Build configuration list for PBXProject "StarCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				896CE04D168203FF00E78EFD /* Debug */,
+				896CE04E168203FF00E78EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		896CE04F168203FF00E78EFD /* Build configuration list for PBXNativeTarget "StarCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				896CE050168203FF00E78EFD /* Debug */,
+				896CE051168203FF00E78EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 896CE028168203FF00E78EFD /* Project object */;
+}
